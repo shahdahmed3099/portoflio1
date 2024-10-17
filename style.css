@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index:55;
+    background-color:rgb(18, 18, 56);
+    top:0;
+    
+}
+header .logo{
+    padding:5px;
+    color:white;
+    margin-left: 70px;
+    font-size: 36px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header .nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+
+}
+header .nav ul li a{
+    color:white;
+    padding:5px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+header .nav ul li a:hover{
+    color:cadetblue;
+}
+
+
+ #home{
+    
+    background-color:rgb(166, 166, 199);
+    
+    
+}
+section .content{
+    display:flex;
+    justify-content: space-between;
+    align-items: left;
+    width:100%;
+    height:100vh;
+    margin:auto;
+
+   
+}
+
+section .content .me {
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:30%;
+    margin-top: 180px;
+    margin-left: 70px;
+    
+
+   
+}
+section .content .me h1{
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    color:black;
+}
+section .content .me p{
+    margin-top: 12px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:540;
+    width:99%;
+    color:black;
+    
+    
+}
+section .content .icon{
+    margin-top: 15px;
+    padding-left: 10px;
+    
+}
+section .content .icon svg{
+    padding-right:30px;
+}
+section .content .icon svg:hover{
+    color:gray;
+}
+section .content .me button {
+    padding:17px;
+    font-size: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:605;
+    border-radius: 15px;
+    margin-top: 20px;
+    border:none;
+    text-decoration: none;
+    background-color:rgba(243, 239, 239, 0.445);
+    
+}
+section .content .me button a{
+    text-decoration: none;
+    color:purple
+}
+section .content .me button:hover{
+    background-color:rgba(46, 59, 131, 0.63);
+   
+}
+
+section .content img{
+    
+    margin-top: 180px;
+    margin-right: 150px;
+    height:380px;
+    width:360px;
+    margin:left;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(8, 35, 83, 0.466), 
+    0 0 20px rgba(8, 35, 83, 0.466),  0 0 20px rgba(8, 35, 83, 0.466),  0 0 20px rgba(8, 35, 83, 0.466),  0 0 20px rgba(8, 35, 83, 0.466);
+}
+#about{
+    background-color:rgb(166, 166, 199);
+    box-shadow: 0 0 35px rgba(8, 35, 83, 0.466), 
+    0 0 2px rgba(8, 35, 83, 0.466),  0 0 5px rgba(8, 35, 83, 0.466),  0 0 1px rgba(8, 35, 83, 0.466),  0 0 2px rgba(8, 35, 83, 0.466);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#about .image img{
+    margin-top: 150px;
+    margin-left: 100px;
+    height:380px;
+    width:370px;
+    margin:left;
+    border-radius: 50%;
+    background-color:transparent;
+    box-shadow: 0 0 5px rgba(8, 35, 83, 0.466), 
+    0 0 20px rgba(8, 35, 83, 0.466),  0 0 20px rgba(8, 35, 83, 0.466),  0 0 20px rgba(8, 35, 83, 0.466),  0 0 20px rgba(8, 35, 83, 0.466);
+
+
+}
+#about .content .me{
+     
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:30%;
+    margin-top: 110px;
+    margin-right: 90px;
+
+}
+#about .content .me h1{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    color:black;
+}
+#about .content .me h2{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    color:black;
+}
+#about .content .me p{
+    margin-top: 12px;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:545;
+    width: 85%;
+    color:black;  
+}
+#about .content .me h3{
+    margin-top: 15px;
+    font-size: 27px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    color:black;
+
+}
+#about .content .me button {
+    padding:15px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:605;
+    border-radius: 15px;
+    margin-top: 30px;
+    border:none;
+    text-decoration: none;
+    background-color:rgba(243, 239, 239, 0.445);
+   
+}
+#about .content .me button a{
+
+    text-decoration: none;
+    color:purple;
+}
+#about .content .me button:hover{
+    background-color:rgba(46, 59, 131, 0.63);
+   
+}
+
+
+#project{
+    background-color:rgb(166, 166, 199);
+    box-shadow: 0 0 35px rgba(8, 35, 83, 0.466), 
+    0 0 2px rgba(8, 35, 83, 0.466),  0 0 5px rgba(8, 35, 83, 0.466),  0 0 1px rgba(8, 35, 83, 0.466),  0 0 2px rgba(8, 35, 83, 0.466);
+   
+}
+#project .title h1{
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    color:black;
+    text-align: center;
+    
+   
+
+}
+
+
+section .contentss {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    border-bottom:1px solid black;
+    padding-bottom: 30px;
+}
+.product-box {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 6px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.product-box img {
+    width: 100%; 
+    height:150px;
+    border-radius: 10px;
+    padding-bottom: 6px; 
+    margin-bottom: 6px; 
+}
+
+.product-box h2{
+    font-size:17px;
+    margin-bottom: 13px;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    color:black;
+    text-align: center;
+}
+
+.product-box button{
+    background-color:rgba(243, 239, 239, 0.212);
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 12px;
+    box-shadow: 0 0 3px rgba(8, 35, 83, 0.466), 
+    0 0 2px rgba(8, 35, 83, 0.466),  0 0 5px rgba(8, 35, 83, 0.466),  0 0 1px rgba(8, 35, 83, 0.466),  0 0 2px rgba(8, 35, 83, 0.466);
+    
+}
+.product-box button:hover{
+    background-color:rgb(159, 179, 216);
+}
+
+
+.contact{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 100px;
+    box-shadow: 0 0 5px rgba(8, 35, 83, 0.466), 
+    0 0 2px rgba(8, 35, 83, 0.466),  0 0 5px rgba(8, 35, 83, 0.466),  0 0 1px rgba(8, 35, 83, 0.466),  0 0 2px rgba(8, 35, 83, 0.466);
+    background-color:rgb(166, 166, 199);
+}
+.contact-text h2{
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800;
+    color:black;
+    margin-top: -150px;
+    margin-left: 50px;
+    
+
+}
+.contact-text h2 span{
+    color:rgb(18, 18, 56);
+}
+.contact-text h4{
+   
+    color:rgb(18, 18, 56) ;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+.contact-list{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.contact-list li{
+    margin-bottom: 10px;
+   list-style: none;
+   font-size: 20px;
+   cursor: pointer;
+}
+.contact-list i{
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.contact-form{
+    position: relative;
+    width:50%;
+    margin-bottom:40px;
+    
+}
+.contact-form input,form textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background-color: #83838662;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgba(208, 212, 219, 0.466), 
+    0 0 2px rgba(208, 212, 219, 0.466),  0 0 5px rgba(208, 212, 219, 0.466),  0 0 1px rgba(208, 212, 219, 0.466),  0 0 5px rgba(208, 212, 219, 0.466);
+
+}
+.contact-form textarea{
+    
+    height: 150px;
+}
+
+.contact-form form .btn{
+    background-color:rgb(18, 18, 56) ;
+    color: white;
+    margin-left: 300px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 12px;
+   
+    
+    
+}
+.contact-form form .btn:hover{
+    color:rgb(18, 18, 56) ;
+    background-color:rgba(243, 239, 239, 0.212);
+}
+
+
+
+
+
